@@ -6,8 +6,8 @@ function onYouTubeIframeAPIReady() {
 		height: 400,
 		videoId: 'c4tPQYNpW9k',
 		playerVars: {
-			color: 'white'
-			//autoplay: '1'
+			color: 'white',
+			autoplay: '1',
 			//playlist: 'taJ60kskkns,FG0fTKAqZ5g'
 		},
 		events: {
