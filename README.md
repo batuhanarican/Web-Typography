@@ -14,4 +14,7 @@ In de achtergrond hoor je vaak lage tonen die de scenes vrij intens maken. Dit h
 Hans Zimmer gebruikt in zijn nummers vaak tikgeluiden die ongeveer een seconde lang duren. Dit zorgt ervoor dat wij ons ongemakkelijk gaan voelen. Dit is een psychologische truuc die erg goed werkt en die ik graag wilde gebruikten. Ik heb dit gevisualiseerd in de vorm van een gloed om het filmpje heen die in de loop der tijd langzaam in beeld komt en om de seconde pulseert. Door het een rode kleur te geven heb ik geprobeerd om de urgentie naar voren te laten komen.
 
 ### Shake
-In het fragment hoor je het ruimteschip trillen door de manoeuvres die de austronauten maken. Om dit naar voren te laten brengen heb ik gebruik gemaakt van een keyframe animatie om het beeld te laten trillen wanneer dit ook in de film gebeurt.
+In het fragment hoor je het ruimteschip trillen door de manoeuvres die de austronauten maken. Om dit naar voren te laten brengen heb ik gebruik gemaakt van een keyframe animatie om het beeld te laten trillen wanneer dit ook in de film gebeurt. Dit maakt het voor de gebruiker ook lastiger om te tekst te lezen, wat het effect juist heftiger maakt. 
+
+### Noise en scale
+Hoe verder je in het filmpje bent, hoe heftiger de muziek en de beelden worden. Het wordt uiteindelijk enorm intens en dit heb ik gevisualiseerd door een GIF van ruis over het beeld te plaatsen die langzaam zichtbaar wordt naarmate de beelden en muziek heftiger worden. 
