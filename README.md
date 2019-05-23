@@ -1,5 +1,6 @@
 # Web typografie | Interstellar
 
+Live preview:
 https://batuhanarican.github.io/Web-Typography/closed-captions/
 
 ## Personages
