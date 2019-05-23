@@ -17,4 +17,7 @@ Hans Zimmer gebruikt in zijn nummers vaak tikgeluiden die ongeveer een seconde l
 In het fragment hoor je het ruimteschip trillen door de manoeuvres die de austronauten maken. Om dit naar voren te laten brengen heb ik gebruik gemaakt van een keyframe animatie om het beeld te laten trillen wanneer dit ook in de film gebeurt. Dit maakt het voor de gebruiker ook lastiger om te tekst te lezen, wat het effect juist heftiger maakt. 
 
 ### Noise en scale
-Hoe verder je in het filmpje bent, hoe heftiger de muziek en de beelden worden. Het wordt uiteindelijk enorm intens en dit heb ik gevisualiseerd door een GIF van ruis over het beeld te plaatsen die langzaam zichtbaar wordt naarmate de beelden en muziek heftiger worden. 
+Hoe verder je in het filmpje bent, hoe heftiger de muziek en de beelden worden. Het wordt uiteindelijk enorm intens en dit heb ik gevisualiseerd door een GIF van ruis over het beeld te plaatsen die langzaam zichtbaar wordt naarmate de beelden en muziek heftiger worden. Ook wordt het filmpje steeds kleiner en moet je je steeds meer focussen.
+
+### Perspectief
+In het filmpje is het de bedoeling dat de astronauten de ruimteschip koppelen aan een basis die door een botsing is gaan roteren. Met de ruimteschip proberen zij de basis tot stilstand te brengen om gevaren te voorkomen. Om de ruimteschip goed te koppelen moeten de astronauten eerst meedraaien met de basis. Dit zorgt ervoor dat er veel druk wordt uigeoefend en de astronauten worden hard tegen hun stoelen aan gedrukt. Dit is een vrij heftige scene en om dit na te bootsen heb ik het beeld met een perspectief geanimeerd. Zo komt hun strijd en dr intensiteit van het beeld beter naar voren. 
