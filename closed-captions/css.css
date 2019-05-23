@@ -14,10 +14,22 @@ body {
     perspective: 800px;
 }
 
+body:before {
+    position: absolute;
+    top: -60px;
+    content: "";
+    width: 100vw;
+    height: 100vh;
+    background-image: url(stars1.jpg);
+    background-size: 50% 50%;
+    opacity: .4;
+}
+
 p {
     width: 100%;
     text-align: center;
-    font-size: 28px
+    font-size: 28px;
+    margin-top: 0;
 }
 
 #closed-captions {
@@ -104,8 +116,12 @@ p {
     margin-bottom: 56%;
 }
 
-.sound16 .pulse {
-    animation: border 1s infinite, opacity 1s reverse forwards;
+.sound15 .pulse {
+    animation: scaleout 112s forwards ease-out, border 1s infinite, opacity 112s forwards;
+}
+
+.sound18 .pulse {
+    animation: scaleout 2s reverse forwards;
 }
 
 .sound0 .glow {
@@ -114,48 +130,49 @@ p {
     height: 400px;
     bottom: 0px;
     left: -50%;
-    background: radial-gradient(rgba(0, 150, 255, .6) 0, rgba(0,0,0,0) 50%);
+    background: radial-gradient(rgba(0, 150, 255, 1) 0, rgba(0,0,0,0) 50%);
     transition-duration: 2s;
     animation: glow 10s ease-in-out forwards, glowpulse 4s 10s ease-in-out alternate infinite, opacity2 214s forwards;
     z-index: -1;
     
 }
 
-.sound14 .glow2 {
+.sound15 .glow2 {
     position: fixed;
     width: 100vw;
     height: 100vh;
     top: -60px;
-    z-index: -1;
+    z-index: 1;
     background: radial-gradient(circle at top, rgba(160, 140,255, .4) 0, rgba(0,0,0,0) 100%);
+    z-index: -1;
     animation: opacity 112s forwards, opacity 2s 113s reverse forwards;
     pointer-events: none;
 }
 
-.sound17 .glow {
+.sound18 .glow {
     animation: glowpulse 2s 10s ease-in-out alternate infinite, opacity 2s ease-in-out reverse forwards;
 }
 
-.sound15 .h_iframe {
+.sound16 .h_iframe {
     animation: skewforwards2 8s ease-in-out forwards, skewforwards 10s 10s ease-in-out forwards;
 }
-.sound15 iframe {
+.sound16 iframe {
     animation: shake2 .2s infinite;
 }
 
-.sound16 .h_iframe {
+.sound17 .h_iframe {
     animation: skewbackwards 10s ease-in-out forwards;
 }
 
-.sound16 iframe {
+.sound17 iframe {
     animation: shake2 0s;
 }
 
-.sound17 iframe {
+.sound18 .h_iframe {
     animation: opacity 2s 2s ease-in-out reverse forwards;
 }
 
-.sound14 .noise {
+.sound15 .noise {
     position: fixed;
     opacity: .2;
     top: -60px;
@@ -167,7 +184,15 @@ p {
     background-blend-mode: overlay;
     pointer-events: none;
     animation: opacity 112s forwards, opacity 2s 113s reverse forwards;
-    z-index: -1;
+    z-index: 1;
+}
+
+.sound14 iframe {
+    animation: bump .5s ease-out;
+}
+
+.sound15 iframe {
+    animation: scaleout 112s ease-out forwards, scaleout 2s 214s ease-out reverse forwards;
 }
 
 /*CLOSED CAPTIONS*/
@@ -470,11 +495,26 @@ You probably want to change the styling.
     }
 }
 
-@keyframes scale {
+@keyframes scaleout {
     from {
         transform: scale(1);
     }
     to {
-        transform: scale(1.4);
+        transform: scale(0.7);
+    }
+}
+
+@keyframes bump {
+    0% {
+        transform: translateY(0);
+    }
+    60% {
+        transform: translateY(50px);
+    }
+    80% {
+        transform: translateY(-30px);
+    }
+    100% {
+        transform: translateY(0);
     }
 }
